@@ -2,6 +2,7 @@ title: Tachiyomi
 name: tachiyomi
 description: "Tachiyomi is an open-source Android app that lets you read any manga from your smartphone - faster and easier than ever."
 defaultLocale: en
+baseUrl: "https://tachiyomi-status.netlify.app"
 locales:
   - code: en
     iso: en-US
