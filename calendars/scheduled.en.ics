@@ -1,8 +1,0 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//Statusfy//tachiyomi-status.netlify.app//calendar//scheduled//EN
-NAME:Tachiyomi
-X-WR-CALNAME:Tachiyomi
-TIMEZONE-ID:UTC
-X-WR-TIMEZONE:UTC
-END:VCALENDAR

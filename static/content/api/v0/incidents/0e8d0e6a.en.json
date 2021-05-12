@@ -1,1 +1,0 @@
-{"id":"0e8d0e6a","title":"Test rss ","description":"Test rss ","date":"2021-01-29T09:43:13.000Z","modified":"2021-02-01T02:08:26.000Z","scheduled":null,"severity":"major-outage","affectedsystems":["api","cdn","web"],"resolved":true,"content":"<p>Test rss</p>\n"}

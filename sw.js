@@ -17,6 +17,9 @@ workbox.core.skipWaiting()
 
 workbox.precaching.cleanupOutdatedCaches()
 
+// Enable offline Google Analytics tracking
+workbox.googleAnalytics.initialize()
+
 // --------------------------------------------------
 // Precaches
 // --------------------------------------------------
