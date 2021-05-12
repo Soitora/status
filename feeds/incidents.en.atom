@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://tachiyomi-status.netlify.app</id>
+    <title>Tachiyomi</title>
+    <updated>2021-05-12T01:57:25.304Z</updated>
+    <generator>Statusfy</generator>
+    <link rel="alternate" href="https://tachiyomi-status.netlify.app"/>
+    <link rel="self" href="https://tachiyomi-status.netlify.app/feeds/incidents.en.atom"/>
+    <subtitle>Tachiyomi is an open-source Android app that lets you read any manga from your smartphone - faster and easier than ever.</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Tachiyomi API Issues]]></title>
+        <id>https://tachiyomi-status.netlify.app/incidents/3bc73898</id>
+        <link href="https://tachiyomi-status.netlify.app/incidents/3bc73898"/>
+        <updated>2021-05-12T01:36:53.000Z</updated>
+        <summary type="html"><![CDATA[Our origin servers were responding slowly.]]></summary>
+        <content type="html"><![CDATA[<p>Our origin servers were responding slowly.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Test rss ]]></title>
+        <id>https://tachiyomi-status.netlify.app/incidents/0e8d0e6a</id>
+        <link href="https://tachiyomi-status.netlify.app/incidents/0e8d0e6a"/>
+        <updated>2021-01-29T09:43:13.000Z</updated>
+        <summary type="html"><![CDATA[Test rss ]]></summary>
+        <content type="html"><![CDATA[<p>Test rss</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Staging operations regularly timing out]]></title>
+        <id>https://tachiyomi-status.netlify.app/incidents/6ae1b79c</id>
+        <link href="https://tachiyomi-status.netlify.app/incidents/6ae1b79c"/>
+        <updated>2021-01-23T17:15:14.000Z</updated>
+        <summary type="html"><![CDATA[We're aware of staging operations regularly timing out on oss.sonatype.org]]></summary>
+        <content type="html"><![CDATA[<p>We're aware of staging operations regularly timing out on oss.sonatype.org</p>
+<div class="update-block">
+          <div class="update-block-date">2021-01-23T17:19:53.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Investigating</div>
+            <div class="update-block-body">
+<p>We will be pausing staging operations off an on as part of our investigation process. Builds are already failing with timeouts, but, while staging operations are paused you'll see 405 errors if you try to start a new build.</p>
+</div></div></div>
+<div class="update-block">
+          <div class="update-block-date">2021-01-23T17:22:12.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Resolved</div>
+            <div class="update-block-body">
+<p>Load has subsided on its own, and staging operations appear to be running normally again.</p>
+</div></div></div>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Files Conversion Issues]]></title>
+        <id>https://tachiyomi-status.netlify.app/incidents/6ae2a05a</id>
+        <link href="https://tachiyomi-status.netlify.app/incidents/6ae2a05a"/>
+        <updated>2021-01-23T11:53:21.000Z</updated>
+        <summary type="html"><![CDATA[Our origin servers were responding slowly.]]></summary>
+        <content type="html"><![CDATA[<p>Our origin servers were responding slowly.</p>
+<div class="update-block">
+          <div class="update-block-date">2021-01-23T13:01:01.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Monitoring</div>
+            <div class="update-block-body">
+<p>Our Files Conversion System is not responding properly and we've investigating what is causing this issue.</p>
+</div></div></div>
+<div class="update-block">
+          <div class="update-block-date">2021-01-23T13:01:53.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Restarting</div>
+            <div class="update-block-body">
+<p>We restart our Files Conversion Service, it will be recovered in minutes.</p>
+</div></div></div>
+<div class="update-block">
+          <div class="update-block-date">2021-01-23T13:13:02.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Investigating</div>
+            <div class="update-block-body">
+<p>Staging operations have piled overnight. We will be pausing staging operations to allow those in flight to clear. This will cause new builds to fail with a 405 error. After that, we'll also be restarting oss.sonatype.org, so you can expect 5xx errors at that time.</p>
+</div></div></div>
+<div class="update-block">
+          <div class="update-block-date">2021-01-23T13:22:32.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Update</div>
+            <div class="update-block-body">
+<p>We will be restarting oss.sonatype.org one more time for one more config change. This will be the last service interruption for tonight.</p>
+</div></div></div>
+<div class="update-block">
+          <div class="update-block-date">2021-01-23T17:07:51.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Monitoring</div>
+            <div class="update-block-body">
+<p>Restart is complete, and we'll be monitoring the impact of our latest changes to staging performance.</p>
+</div></div></div>
+<div class="update-block">
+          <div class="update-block-date">2021-01-23T17:08:27.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Resolved</div>
+            <div class="update-block-body">
+<p>This incident has been resolved.</p>
+</div></div></div>
+]]></content>
+    </entry>
+</feed>

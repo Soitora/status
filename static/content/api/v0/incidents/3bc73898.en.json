@@ -1,0 +1,1 @@
+{"id":"3bc73898","title":"Tachiyomi API Issues","description":"Our origin servers were responding slowly.","date":"2021-05-12T01:36:53.000Z","modified":"2021-05-12T01:55:26.000Z","scheduled":null,"severity":"partial-outage","affectedsystems":["api"],"resolved":true,"content":"<p>Our origin servers were responding slowly.</p>\n"}
