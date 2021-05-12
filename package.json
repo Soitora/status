@@ -1,11 +1,10 @@
 {
-  "name": "tachiyomi",
+  "name": "tachiyomi-status",
   "description": "Tachiyomi is an open-source Android app that lets you read any manga from your smartphone - faster and easier than ever.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npx npm-force-resolutions",
     "dev": "statusfy dev",
     "build": "statusfy build",
     "start": "statusfy start",
@@ -16,9 +15,6 @@
   },
   "dependencies": {
     "statusfy": "^0.5.0"
-  },
-  "resolutions": {
-    "@babel/preset-env": "7.12.17"
   },
   "engines": {
     "node": ">=12",

@@ -8,9 +8,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v1
     - name: Generate incident
       uses: devkanro/setup-statusfy@v1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         branch: main
+    - name: Build the static site.
+      run: |
+        npm install
+        npm run generate
+    - name: Publish the static site to GitHub Pages.
+      uses: jamesives/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: dist
