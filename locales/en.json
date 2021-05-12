@@ -1,6 +1,13 @@
 {
   "title": "Tachiyomi",
   "description": "Tachiyomi is an open-source Android app that lets you read any manga from your smartphone - faster and easier than ever.",
+    "statuses": {
+      "under-maintenance": "Site under maintenance",
+      "degraded-performance": "Might be slow",
+      "partial-outage": "Not working for some users",
+      "major-outage": "Not working",
+      "operational": "Working"
+    },
   "systems": {
     "items": {
       "github": {
