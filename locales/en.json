@@ -1,12 +1,31 @@
 {
   "title": "Tachiyomi",
   "description": "Tachiyomi is an open-source Android app that lets you read any manga from your smartphone - faster and easier than ever.",
-    "statuses": {
-      "under-maintenance": "Site under maintenance",
-      "degraded-performance": "Might be slow",
-      "partial-outage": "Not working for some users",
-      "major-outage": "Not working",
-      "operational": "Working"
+  "labels": {
+    "contact": "Contact",
+    "support": "Support",
+    "home": "Home",
+    "powered-by": "Powered by Netlify and"
+  },
+  "statuses": {
+    "under-maintenance": "Site under maintenance",
+    "degraded-performance": "Might be slow",
+    "partial-outage": "Not working for some users",
+    "major-outage": "Not working",
+    "operational": "Working"
+  },
+  "dates": {
+    "formats": {
+      "short": "MMM D, YYYY",
+      "long": "MMM D, HH:mm UTC",
+      "month": "MMMM YYYY"
+    }
+  },
+  "incidents": {
+    "incidents": "Issues",
+    "incident": "Issue",
+    "scheduled": "Scheduled maintenance",
+    "incidents-history": "Issue history",
     "incidents-history-description": "Current & Historical operational interruptions to our service.",
     "incidents-history-days-since-latest": "1 day since last issue | {days} days since last issue",
     "latest-incidents": "Status updates",
