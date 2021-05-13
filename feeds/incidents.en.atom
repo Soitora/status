@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tachiyomi-status.netlify.app</id>
     <title>Tachiyomi</title>
-    <updated>2021-05-13T15:34:50.989Z</updated>
+    <updated>2021-05-13T15:36:45.872Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://tachiyomi-status.netlify.app"/>
     <link rel="self" href="https://tachiyomi-status.netlify.app/feeds/incidents.en.atom"/>
