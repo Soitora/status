@@ -2,7 +2,7 @@ name: "Statusfy Incident"
 on:
   issue_comment:
   issues:
-    types: [opened, edited, closed, reopened]
+    types: [opened, edited, closed, reopened, labeled, unlabeled]
 
 jobs:
   build:
