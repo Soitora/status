@@ -22,6 +22,9 @@
         "title": "Google",
         "description": "Responsible for keeping a good part of the internets websites online."
       },
+      "application": {
+        "title": "Application"
+      },
       "extension": {
         "title": "Extension"
       }
