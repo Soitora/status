@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tachiyomi-status.netlify.app</id>
     <title>Tachiyomi</title>
-    <updated>2021-05-13T11:14:32.346Z</updated>
+    <updated>2021-05-13T11:18:33.361Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://tachiyomi-status.netlify.app"/>
     <link rel="self" href="https://tachiyomi-status.netlify.app/feeds/incidents.en.atom"/>
     <subtitle>Tachiyomi is an open-source Android app that lets you read any manga from your smartphone - faster and easier than ever.</subtitle>
     <entry>
-        <title type="html"><![CDATA[Bato.to manga error]]></title>
+        <title type="html"><![CDATA[Bato.to]]></title>
         <id>https://tachiyomi-status.netlify.app/incidents/43795256</id>
         <link href="https://tachiyomi-status.netlify.app/incidents/43795256"/>
         <updated>2021-05-13T11:13:13.000Z</updated>

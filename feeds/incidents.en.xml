@@ -4,12 +4,12 @@
         <title>Tachiyomi</title>
         <link>https://tachiyomi-status.netlify.app</link>
         <description>Tachiyomi is an open-source Android app that lets you read any manga from your smartphone - faster and easier than ever.</description>
-        <lastBuildDate>Thu, 13 May 2021 11:14:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 May 2021 11:18:33 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://tachiyomi-status.netlify.app/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Bato.to manga error]]></title>
+            <title><![CDATA[Bato.to]]></title>
             <link>https://tachiyomi-status.netlify.app/incidents/43795256</link>
             <guid>https://tachiyomi-status.netlify.app/incidents/43795256</guid>
             <pubDate>Thu, 13 May 2021 11:13:13 GMT</pubDate>
