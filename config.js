@@ -15,6 +15,12 @@ module.exports = {
 		ga: "UA-148212082-3",
 	},
 	notifications: {
+		webpush: {
+			onesignal: {
+				appId: "bc0871fd-b68e-4317-b189-7d401478ad6c",
+			},
+		},
+		icalendar: false,
 		feeds: true,
 		twitter: {
 			en: "tachiyomiorg",
