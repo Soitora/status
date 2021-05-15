@@ -25,6 +25,14 @@ locales:
     iso: en-US
     name: English
     file: en.json
+  - code: es
+    iso: es
+    name: Español
+    file: es.json
+  - code: br
+    iso: pt-BR
+    name: Brasil
+    file: br.json
 content:
   frontMatterFormat: json
   systems:

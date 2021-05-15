@@ -1,0 +1,29 @@
+{
+  "title": "Tachiyomi",
+  "statuses": {
+    "under-maintenance": "Site em manutenção",
+    "degraded-performance": "Pode ser lento",
+    "partial-outage": "Não funciona para alguns usuários",
+    "major-outage": "Não está funcionando",
+    "operational": "Trabalhando"
+  },
+  "systems": {
+    "items": {
+      "github": {
+        "title": "GitHub"
+      },
+      "cloudflare": {
+        "title": "Cloudflare"
+      },
+      "google": {
+        "title": "Google"
+      },
+      "application": {
+        "title": "Aplicativa"
+      },
+      "extension": {
+        "title": "Extensão"
+      }
+    }
+  }
+}
